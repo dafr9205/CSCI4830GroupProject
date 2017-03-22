@@ -20,8 +20,10 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/onetofive" />
+                android:src="@mipmap/onetofive" />
 
             <TextView
                 android:id="@+id/textView"
@@ -33,9 +35,11 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_height="300dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/sixtonine" />
+                android:src="@mipmap/sixtonine" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -47,9 +51,11 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_height="300dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ten" />
+                android:src="@mipmap/ten" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -61,9 +67,11 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_height="300dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/eleventofifteen" />
+                android:src="@mipmap/eleventofifteen" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -75,9 +83,11 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_height="300dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/sixteentonineteen" />
+                android:src="@mipmap/sixteentonineteen" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -89,9 +99,11 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_height="300dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/twenty" />
+                android:src="@mipmap/twenty" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -103,9 +115,11 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_height="300dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/twentyone" />
+                android:src="@mipmap/twentyone" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -117,9 +131,11 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_height="300dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/twentytwo" />
+                android:src="@mipmap/twentytwo" />
 
             <TextView
                 android:id="@+id/textView9"
@@ -131,6 +147,8 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_height="300dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/twentythreetotwentyfive" />
@@ -145,9 +163,11 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_height="300dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/twentyfourandtwentyxixtotwentynine" />
+                android:src="@drawable/twentyfournine" />
 
             <TextView
                 android:id="@+id/textView11"
@@ -159,6 +179,8 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_height="300dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/thirtyfourtyfifty" />
@@ -173,6 +195,8 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_height="300dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/thirtyfive" />
@@ -181,6 +205,7 @@
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 android:text="There is one other exception--35 can be signed like 25 except you flick your ring finger down instead of the middle. This is optional, though. 3-5 is also perfectly acceptable." />
 
             <TextView
@@ -193,6 +218,8 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:layout_height="300dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/onehundred" />
