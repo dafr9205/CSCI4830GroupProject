@@ -252,11 +252,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
+<<<<<<< HEAD
                 android:text="There is one other exception--35 can be signed like 25 except you flick your ring finger down instead of the middle. This is optional, though. 3-5 is also perfectly acceptable."
                 android:textColor="#FFF"
                 android:background="#80000000"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
+=======
+                android:text="There is one other exception--35 can be signed like 25 except you flick your ring finger down instead of the middle. This is optional, though. 3-5 is also perfectly acceptable." />
+>>>>>>> master
 
             <TextView
                 android:id="@+id/textView15"
