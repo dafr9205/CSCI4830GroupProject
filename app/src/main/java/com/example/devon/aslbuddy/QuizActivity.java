@@ -25,6 +25,7 @@ public class QuizActivity extends AppCompatActivity {
     private Button mButtonChoice1;
     private Button mButtonChoice2;
     private Button mButtonChoice3;
+    private Button mButtonChoice4;
 
 
     private String mAnswer;
@@ -42,6 +43,7 @@ public class QuizActivity extends AppCompatActivity {
         mButtonChoice1 = (Button)findViewById(R.id.choice1);
         mButtonChoice2 = (Button)findViewById(R.id.choice2);
         mButtonChoice3 = (Button)findViewById(R.id.choice3);
+        mButtonChoice4 = (Button)findViewById(R.id.quit);
 
         updateQuestion();
 
@@ -163,6 +165,19 @@ public class QuizActivity extends AppCompatActivity {
         });
         //End of button listener for button 3
 
+        //Start of button listener for button 3
+        mButtonChoice4.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                        Intent i = new Intent(QuizActivity.this, ResultsActivity.class);
+                        Bundle bundle = new Bundle();
+                        bundle.putInt("finalScore", mScore);
+                        i.putExtras(bundle);
+                        QuizActivity.this.finish();
+                        startActivity(i);
+            }
+        });
+        //End of button listener for button 3
     }
 
     private void updateQuestion(){

@@ -25,7 +25,7 @@ public class ResultsActivity extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         int score = bundle.getInt("finalScore");
 
-        mFinalScore.setText("You Scored " + (score+1) + " out of " + QuestionLibrary.mQuestions.length);
+        mFinalScore.setText("You Scored " + (score) + " out of " + (QuestionLibrary.mQuestions.length-1));
 
         if (score == 4) {
             mGrade.setText("Outstanding!");
