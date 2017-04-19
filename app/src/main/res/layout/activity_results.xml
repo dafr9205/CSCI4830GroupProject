@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.devon.aslbuddy.ResultsActivity">
+    
+    <TextView
+        android:id="@+id/grade"
+        android:layout_margin="16dp"
+        android:fontFamily="casual"
+        android:textColor="#000"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulations!" />
+    
+    <TextView
+        android:id="@+id/outOf"
+        android:fontFamily="casual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You scored 4 out of 4"
+        android:layout_below="@+id/grade"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_margin="16dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:text="Retry Quiz"
+        android:id="@+id/retry"
+        android:layout_below="@+id/outOf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="#4CAF50"
+        android:fontFamily="casual"
+        android:textSize="18sp"/>
+
+
+</RelativeLayout>

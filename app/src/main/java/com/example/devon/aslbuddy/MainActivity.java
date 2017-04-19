@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.button);
         Button button2 = (Button) findViewById(R.id.button2);
         Button button3 = (Button) findViewById(R.id.button3);
+        Button button4 = (Button) findViewById(R.id.button4);
         button.setOnClickListener(
                 new View.OnClickListener() {
                     public void onClick(View v) {
@@ -35,6 +36,14 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     public void onClick(View v) {
                         Intent intent = new Intent(MainActivity.this, basicActivity.class);
+                        startActivity(intent);
+                    }
+                }
+        );
+        button4.setOnClickListener(
+                new View.OnClickListener() {
+                    public void onClick(View v) {
+                        Intent intent = new Intent(MainActivity.this, QuizActivity.class);
                         startActivity(intent);
                     }
                 }

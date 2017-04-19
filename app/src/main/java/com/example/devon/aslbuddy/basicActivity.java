@@ -2,6 +2,10 @@ package com.example.devon.aslbuddy;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.ImageView;
+
+
+
 
 public class basicActivity extends AppCompatActivity {
 
@@ -10,4 +14,10 @@ public class basicActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_basic);
     }
+
+
 }
+
+
+
+
