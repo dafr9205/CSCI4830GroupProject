@@ -5,11 +5,12 @@ package com.example.devon.aslbuddy;
 public class QuestionLibrary {
 
     public static int[] images = new int [] {
-            R.drawable.dquiz, R.drawable.aquiz, R.drawable.fquiz, R.drawable.rquiz,R.drawable.rquiz
+            R.drawable.dquiz, R.drawable.sixquiz, R.drawable.aquiz, R.drawable.fquiz, R.drawable.rquiz,R.drawable.rquiz
     };
 
     public static String mQuestions [] = {
             "Is this the ASL hand symbol for B, C, or D?",
+            "What number is does this ASL symbol represent?",
             "Is this the ASL hand symbol for A, B, or C?",
             "Is this the ASL hand symbol for D, E, or F?",
             "Is this the ASL hand symbol for Q, R, or S?",
@@ -18,13 +19,14 @@ public class QuestionLibrary {
 
     private String mChoices [] [] = {
             {"B","C","D"},
+            {"3","6","Not Sure"},
             {"A","B","C"},
             {"D","E","F"},
             {"Q","R","S"},
             {"_","_","_"},
     };
 
-    private String mCorrectAnswers[] = {"D","A","F","R","_"};
+    private String mCorrectAnswers[] = {"D","6","A","F","R","_"};
 
     public String getQuestion(int a) {
         String question = mQuestions[a];

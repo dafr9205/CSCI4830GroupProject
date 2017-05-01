@@ -27,11 +27,10 @@ public class ResultsActivity extends AppCompatActivity {
 
         mFinalScore.setText("You Scored " + (score) + " out of " + (QuestionLibrary.mQuestions.length-1));
 
-        if (score == 4) {
+        if (score > 4) {
             mGrade.setText("Outstanding!");
-        } else if (score == 3) {
+        } else if (score > 3) {
             mGrade.setText("Good Job!");
-
         } else {
             mGrade.setText("Needs more study time :-( ");
         }
