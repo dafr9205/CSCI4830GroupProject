@@ -28,7 +28,7 @@
         tools:layout_constraintLeft_creator="1"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        app:layout_constraintHorizontal_bias="0.186" />
+        app:layout_constraintHorizontal_bias="0.511" />
 
     <Button
         android:id="@+id/button"
