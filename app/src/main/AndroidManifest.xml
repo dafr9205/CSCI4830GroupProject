@@ -21,8 +21,10 @@
         <activity android:name=".alphabetActivity" />
         <activity android:name=".numActivity" />
         <activity android:name=".basicActivity" />
+        <activity android:name=".voteActivity" />
+        <activity android:name=".learnActivity" />
         <activity android:name=".QuizActivity" />
-        <activity android:name=".ResultsActivity"></activity>
+        <activity android:name=".ResultsActivity" />
     </application>
 
 </manifest>

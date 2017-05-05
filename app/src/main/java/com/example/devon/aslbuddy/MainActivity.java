@@ -14,12 +14,10 @@ public class MainActivity extends AppCompatActivity {
     public void OnClickButtonListener() {
         Button button = (Button) findViewById(R.id.button);
         Button button2 = (Button) findViewById(R.id.button2);
-        Button button3 = (Button) findViewById(R.id.button3);
-        Button button4 = (Button) findViewById(R.id.button4);
         button.setOnClickListener(
                 new View.OnClickListener() {
                     public void onClick(View v) {
-                        Intent intent = new Intent(MainActivity.this, alphabetActivity.class);
+                        Intent intent = new Intent(MainActivity.this, learnActivity.class);
                         startActivity(intent);
                     }
                 }
@@ -27,23 +25,7 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(
                 new View.OnClickListener() {
                     public void onClick(View v) {
-                        Intent intent = new Intent(MainActivity.this, numActivity.class);
-                        startActivity(intent);
-                    }
-                }
-        );
-        button3.setOnClickListener(
-                new View.OnClickListener() {
-                    public void onClick(View v) {
-                        Intent intent = new Intent(MainActivity.this, basicActivity.class);
-                        startActivity(intent);
-                    }
-                }
-        );
-        button4.setOnClickListener(
-                new View.OnClickListener() {
-                    public void onClick(View v) {
-                        Intent intent = new Intent(MainActivity.this, QuizActivity.class);
+                        Intent intent = new Intent(MainActivity.this, voteActivity.class);
                         startActivity(intent);
                     }
                 }
